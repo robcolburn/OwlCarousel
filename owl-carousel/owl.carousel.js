@@ -1454,6 +1454,8 @@ if (typeof Object.create !== "function") {
         });
     };
 
+    $.fn.owlCarousel.Constructor = Carousel;
+
     $.fn.owlCarousel.options = {
 
         items : 5,
